@@ -1,0 +1,37 @@
+version = "1.0"
+
+[task]
+name = "mgrange1998/hardening-003-task-05"
+format = "swe_bench_single_turn"
+workstream = "swe_public_repo"
+description = "Derisk task 05 for repogen-hardening-6000 evolution loop (shard 003)"
+authors = [{ name = "mgrange1998", email = "mgrange@meta.com" }]
+keywords = ["python", "hardening", "semi-synthetic-evolution"]
+
+[metadata]
+author_name = "mgrange1998"
+author_email = "mgrange@meta.com"
+difficulty = "easy"
+category = "feature"
+languages = ["python"]
+tags = ["semi-synthetic-evolution", "generator:repogen-hardening-6000", "swe-bench-pro"]
+
+[synthetic_pipeline_metadata]
+pipeline_name = "repogen-hardening-6000"
+tags = ["semi-synthetic-evolution", "generator:repogen-hardening-6000"]
+generator = "repogen-hardening-6000"
+
+[verifier]
+timeout_sec = 600.0
+
+[agent]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 5120
+gpus = 0
+allow_internet = true
+mcp_servers = []

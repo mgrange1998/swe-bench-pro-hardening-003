@@ -1,0 +1,1 @@
+Implement a small Python utility function `add(a, b)` in `/app/solution.py` that returns the sum of its two arguments. Create the file if it does not exist. This is derisk task 05 for the repogen-hardening-6000 evolution loop.
