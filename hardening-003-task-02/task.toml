@@ -4,6 +4,7 @@ version = "1.0"
 name = "mgrange1998/hardening-003-task-02"
 format = "swe_bench_single_turn"
 workstream = "swe_public_repo"
+track_assignment = "inherited"
 description = "Derisk task 02 for repogen-hardening-6000 evolution loop (shard 003)"
 authors = [{ name = "mgrange1998", email = "mgrange@meta.com" }]
 keywords = ["python", "hardening", "semi-synthetic-evolution"]
@@ -14,6 +15,7 @@ author_email = "mgrange@meta.com"
 difficulty = "easy"
 category = "feature"
 languages = ["python"]
+reward_type = "binary"
 tags = ["semi-synthetic-evolution", "generator:repogen-hardening-6000", "swe-bench-pro"]
 
 [synthetic_pipeline_metadata]
